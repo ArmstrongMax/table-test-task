@@ -1,0 +1,18 @@
+.columnSelector {
+    overflow-y: hidden;
+    height: 600px;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: #475f5d 2px solid;
+    margin: 4px;
+}
+.columnSelector:hover {
+    overflow: auto;
+}
+
+.hideItem {
+    display: none;
+}

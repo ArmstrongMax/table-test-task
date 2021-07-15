@@ -1,0 +1,115 @@
+thead .stickyHead1 {
+    border: none;
+    background-color: #8bb8b8;
+    position: sticky;
+    left: 0;
+    z-index: 3;
+}
+
+thead .stickyHead2 {
+    border: none;
+    background-color: #8bb8b8;
+    position: sticky;
+    left: 100px;
+    z-index: 3;
+}
+
+thead .stickyHead3 {
+    border: none;
+    background-color: #8bb8b8;
+    position: sticky;
+    left: 200px;
+    z-index: 3;
+}
+
+thead .stickyHead4 {
+    border: none;
+    background-color: #8bb8b8;
+    position: sticky;
+    left: 300px;
+    z-index: 3;
+}
+
+tbody .stickyCol1 {
+    outline-offset: -1px;
+    border: none;
+    outline: 1px solid #6ca09d;
+    position: sticky;
+    left: 0;
+    background: inherit;
+}
+
+tbody .stickyCol2 {
+    outline-offset: -1px;
+    border: none;
+    outline: 1px solid #6ca09d;
+    position: sticky;
+    left: 100px;
+    background: inherit;
+}
+
+tbody .stickyCol3 {
+    outline-offset: -1px;
+    border: none;
+    outline: 1px solid #6ca09d;
+    position: sticky;
+    left: 200px;
+    background: inherit;
+}
+
+tbody .stickyCol4 {
+    outline-offset: -1px;
+    border: none;
+    outline: 1px solid #6ca09d;
+    position: sticky;
+    left: 300px;
+    background: inherit;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #b5ccd0;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+table th, td {
+    border: 1px solid #6ca09d;
+    min-width: 100px;
+}
+
+thead tr.firstRow th {
+    border: none;
+    outline: 1px solid #6ca09d;
+    outline-offset: -1px;
+    background-color: #8bb8b8;
+    position: sticky;
+    top: 105px;
+    /*    z-index: 1;*/
+}
+
+thead tr.secondRow th {
+    border: none;
+    outline: 1px solid #6ca09d;
+    outline-offset: -1px;
+    background-color: #8bb8b8;
+    position: sticky;
+    top: 215px;
+    /*    z-index: 1;*/
+}
+
+.hiddenCol {
+    display: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+

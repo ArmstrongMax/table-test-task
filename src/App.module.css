@@ -1,0 +1,23 @@
+.columnSelectorContainer {
+    position: fixed;
+    top: 60px;
+    background-color: white;
+    z-index: 3;
+    width: 100%;
+    height: 6.5%;
+}
+.formContainer {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+}
+.tableContainer {
+    position: relative;
+    top: 105px;
+    background-color: white;
+    z-index: 1;
+}
+
+
+
