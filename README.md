@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+A test task when applying for a job from one company. Task text:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Задача: Универсальная таблица-отчет Необходимо сверстать таблицу с большим количеством колонок и строк (больше 40 колонок и больше 1000 строк). Данные можно сгенерировать случайно, но там должны быть числа в разных форматах (штуки, деньги, проценты), строки, картинки (отношение сторон 1:1).
+Предполагается загрузка данных порциями по API (само API реализовывать не требуется. Достаточно поставить заглушку, которая будет возвращать данные). Требования к выполнению задачи:
+1. заголовки на разрешении можно проматывать вправо/влево
+2. заголовки при прокрутке остаются видимыми пользователю
+3. единственный разрешенный скроллбар - это тот, что дается браузером при отображении страницы
+4. таблица должна хорошо смотреться на разрешении 600px (mobile) и прокручиваться пальцем влево/вправо
+5. первые три столбца должны быть зафиксированы и оставаться видимыми
+6. колонки можно менять местами
+7. колонки можно делать видимыми/невидимыми
+8. первая колонка - номер строки
+9. таблица должна поддерживать сортировку
+10. добавить в таблицу любой фильтр, убирающий строки по какому-либо признаку
+11. под заголовками должны быть итоги: там где деньги - суммируем, где числа - считаем среднее, где строки - количество строк.
+12. итоги должны обновляться, если применяется тот или иной фильтр
+13. первая колонка - это сквозная нумерация, которая пересчитывается при каждом примененном фильтре. Т.е. если изначально строка имела номер "3", а после фильтра стала оказалась первой, то для нее должно стоять значение "1"
+14. Нельзя использовать визуальный пагинатор (кнопки для прокрутки страниц), но можно загружать данные в стиле infinity scroll Результат представить в виде HTML-страницы, которую можно запустить на компьютере директора без установки каких-либо сторонних программ Примечание: можно использовать любые JS-библиотеки
